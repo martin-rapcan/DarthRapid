@@ -1,0 +1,93 @@
+/* CSS Document */
+
+body {
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Roboto Slab , serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.headline {
+    color: #ffffff;
+}
+
+.headline ul {
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+    text-align: center;
+}
+
+.headline ul li {
+    padding: 10px;
+    text-align: center;  
+    transition: background-color 0.5s;
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: left;
+    position: fixed; 
+}
+
+#Jedi {
+    margin-left: -28.5%; 
+    margin-right: 22%; 
+    
+}
+
+#Sith {
+    margin-right: 16%; 
+    margin-left: 22%; 
+}
+
+#Jedi:hover {
+    color: #1aff00;
+    cursor: pointer;
+}
+
+#Sith:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.JediCode, .SithCode {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20%;
+    color: white; 
+    white-space: pre;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Roboto Slab , serif; 
+    letter-spacing: 1px; 
+}
+
+#Jedii {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Sithh {
+    margin-left: 2%;
+    margin-right: 2%; 
+}
+
+#Jedii:hover {
+    color: #11ff00;
+    cursor: pointer;
+}
+
+#Sithh:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+img {
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
